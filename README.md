@@ -15,12 +15,11 @@ that shows movie details when clicked.
 - Git & GitHub
 
 ## Features
+- Sign-in opens separate login page
 - Responsive design
 - Netflix-inspired UI
 - Movie sections and cards
 - Interactive navigation
-- Mobile-friendly design
-- 
 
 ## Purpose
 This project was created for practicing frontend web development.
