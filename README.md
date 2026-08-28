@@ -1,6 +1,9 @@
 # Netflix Landing Page
 A responsive frontend project built with HTML, CSS, and JavaScript.
 
+##Live Demo
+[Live demo](https://nitinmaurya7.github.io/Netflix-clone/)
+
 ## About
 It is a Netflix-inspired design and layout with login page and interactive movie cards
 that shows movie details when clicked.
