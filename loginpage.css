@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: #1b0e26;
+    background: linear-gradient(2deg, rgba(27, 14, 38, 1) 33%, rgba(92, 23, 23, 1) 100%);
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.page1{
+    height: 100vh;
+}
+.navbar h1{
+    color:#e50914;
+    font-size:35px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.mid{
+    width:500px;
+    margin: 0 auto;
+}
+.mid-top{
+    margin-top: 2rem ;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+.mid-top h1{
+    font-family: fantasy;
+    font-size: 30px;
+}
+.mid-top p{
+    color: rgb(115, 115, 114);
+    font-size: 20px;
+    padding-top: 10px;
+}
+.mid-info{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr;
+    height: 120px;
+}
+.mid-info input{
+    background:rgb(34, 18, 18);
+    border-radius:4px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    font-size:18px;
+    padding-left: 1rem;
+    color: rgb(100, 100, 100);
+}
+.mid-info button{
+    margin-top:0.8rem;
+    font-size:18px;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+}
+.mid-bottom{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.mid-bottom a{
+    text-decoration:none;
+    color: white;
+    font-size: 20px;
+}
+.mid-bottom small{
+    margin-top: 2rem;
+    font-size: 15px;
+    color: rgb(125, 125, 124);
+    font-family: fantasy;
+}
+.footer{
+    background:linear-gradient(to top, #0f0f0f 30%, transparent 100%);
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:5rem;
+    margin: 0 auto;
+    width:100%;
+}
+.footer a{
+    color: aliceblue;
+}
+.footer a:hover{
+    color: blue;
+    transition: all 300ms ease;
+}
+@media (max-width:600px){
+
+.page1{
+    height: 610px;
+    position: relative;
+    overflow: hidden;
+    }
+.navbar{
+    height: 60px;
+    width: 100%;
+}
+.navbar h1{
+   font-size: 25px;
+}
+.mid{
+    width:300px;
+    margin: 0 auto;
+}
+.mid-top h1{
+    font-size: 25px;
+}
+.mid-top{
+    margin-top:3rem ;
+    margin-bottom:2rem;
+}
+.footer{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    gap:20px;
+    padding:2rem;
+    margin: 0 auto;
+    width:100%;
+}
+}
+    
+
