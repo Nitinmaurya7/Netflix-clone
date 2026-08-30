@@ -16,6 +16,7 @@ that shows movie details when clicked.
 
 ## Features
 - Sign-in opens separate login page
+- local storage
 - Responsive design
 - Netflix-inspired UI
 - Movie sections and cards
