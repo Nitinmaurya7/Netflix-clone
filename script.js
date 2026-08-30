@@ -36,12 +36,11 @@ question.forEach(actquestion=>{
     actquestion.addEventListener("click",()=>{
         actquestion.classList.toggle("active");
 
-        const icon = actquestion.querySelector("#plus-icon")
+        const icon = actquestion.querySelector("#plus-icon");
         icon.classList.toggle("active");
          
     });
 });
-
 
 const images = document.querySelectorAll(".boxpage2img");
 const modal = document.querySelector(".image-modal");
@@ -72,6 +71,30 @@ images.forEach((image,idx)=>{
                 modal.style.display = "none";
             }
     });
+
+
+const isLoggedin= localStorage.getItem("isLoggedin");
+const userData = localStorage.getItem("userData");
+const loginBtn = document.querySelector("#login-btn");
+
+if(isLoggedin === "true"){
+    loginBtn.innerHTML = "Logout";
+}
+else{
+    loginBtn.innerHTML="Sign in"
+}
+loginBtn.addEventListener("click", ()=>{
+    if(isLoggedin === "true"){
+    localStorage.removeItem("isLoggedin");
+    localStorage.removeItem("userData");
+    window.location.reload();
+    }
+    else{
+        window.location.href="loginpage.html";
+    }
+})
+
+
 
 
 

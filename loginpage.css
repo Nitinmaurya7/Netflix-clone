@@ -50,23 +50,34 @@ body{
     display: grid;
     width: 90%;
     grid-template-columns: 1fr;
-    height: 120px;
+    height: 150px;
 }
 .mid-info input{
     background:rgb(34, 18, 18);
     border-radius:4px;
+    height: 55px;
+    width: 100%;
     border: 1px solid rgba(255, 255, 255, 0.4);
     font-size:18px;
     padding-left: 1rem;
     color: rgb(100, 100, 100);
 }
+.error{
+    font-family: fantasy;
+    color: red;
+    height:20px;
+    margin-bottom: 0;
+    padding: 0;
+}
 .mid-info button{
     margin-top:0.8rem;
     font-size:18px;
     color: white;
+    height: 55px;
     background-color: #e50914;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 }
 .mid-bottom{
     display: flex;
@@ -117,6 +128,9 @@ body{
 .mid{
     width:300px;
     margin: 0 auto;
+}
+.error{
+    font-size: small;
 }
 .mid-top h1{
     font-size: 25px;
