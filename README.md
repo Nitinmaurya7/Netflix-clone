@@ -1,4 +1,4 @@
-# Netflix Landing Page
+# Movieflix Landing Page
 A responsive frontend project built with HTML, CSS, and JavaScript.
 
 ##Live Demo
